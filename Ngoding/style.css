@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+}
+
+p {
+    border: 2px solid black;
+    width: 150px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    color: black;
+}
+
+p:hover {
+    background: yellow;
+    color: blue;
+}
